@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt Generator Guru</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 Prompt Generator Guru</h1>
+    <p class="tagline">Buat dokumen guru otomatis dalam 1 klik, tanpa ribet</p>
+
+    <form id="promptForm">
+      <label for="task">📄 Jenis Dokumen:</label>
+      <select id="task" required>
+        <option value="">-- Pilih --</option>
+        <option value="soal_pilgan">Soal Pilihan Ganda</option>
+        <option value="soal_isian">Soal Isian Singkat</option>
+        <option value="rpp">RPP</option>
+        <option value="spj">SPJ</option>
+        <option value="jurnal">Jurnal Harian</option>
+        <option value="surat_rapat">Surat Rapat Wali Murid</option>
+        <option value="absen">Daftar Hadir</option>
+        <option value="rekap">Rekap Nilai</option>
+        <option value="catatan_wali">Catatan Wali Kelas</option>
+        <option value="raport">Deskripsi Raport</option>
+        <option value="caption">Caption IG Sekolah</option>
+        <option value="mc">Naskah MC</option>
+        <option value="notulen">Notulen Rapat</option>
+        <option value="laporan_ekskul">Laporan Ekskul</option>
+        <option value="rapat_spp">Undangan Rapat SPP</option>
+      </select>
+
+      <label for="kelas">🏫 Kelas:</label>
+      <input type="text" id="kelas" required placeholder="Contoh: 6, 9A, XII IPA 1" />
+
+      <label for="topik">📚 Topik / Tujuan:</label>
+      <input type="text" id="topik" required placeholder="Contoh: Sistem Pencernaan" />
+
+      <button type="submit">✨ Buat Prompt Sekarang</button>
+    </form>
+
+    <footer>
+      <p>💡 Dibuat dengan ❤️ untuk guru Indonesia</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
