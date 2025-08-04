@@ -1,0 +1,2 @@
+# guru
+PROMPT KIT UNTUK GURU
